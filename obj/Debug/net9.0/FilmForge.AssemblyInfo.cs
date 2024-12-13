@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FilmForge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e1ef0f726c2f16e0a216bd67b412733b48266e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("FilmForge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FilmForge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

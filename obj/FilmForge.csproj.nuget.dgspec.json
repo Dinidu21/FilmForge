@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\.NET\\FilmForge\\FilmForge.csproj": {}
+    "D:\\.NET\\FilmForge\\FilmForge.csproj": {}
   },
   "projects": {
-    "d:\\.NET\\FilmForge\\FilmForge.csproj": {
+    "D:\\.NET\\FilmForge\\FilmForge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\.NET\\FilmForge\\FilmForge.csproj",
+        "projectUniqueName": "D:\\.NET\\FilmForge\\FilmForge.csproj",
         "projectName": "FilmForge",
-        "projectPath": "d:\\.NET\\FilmForge\\FilmForge.csproj",
+        "projectPath": "D:\\.NET\\FilmForge\\FilmForge.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "d:\\.NET\\FilmForge\\obj\\",
+        "outputPath": "D:\\.NET\\FilmForge\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"

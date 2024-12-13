@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/FilmForge/css/site.5tcfpune7u.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5tcfpune7u"},{"Name":"integrity","Value":"sha256-ZzB0qgL6yFy8rX4XIrv1MSiF3e0h2MblQYZWIYsTCus="},{"Name":"label","Value":"_content/FilmForge/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1987"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ZzB0qgL6yFy8rX4XIrv1MSiF3e0h2MblQYZWIYsTCus=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 18:10:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FilmForge/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5tflA6OY54Mwo840bbPvF85AVgqDjnFKZq5ejaBYGKY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2016"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00225tflA6OY54Mwo840bbPvF85AVgqDjnFKZq5ejaBYGKY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 14:33:31 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/FilmForge/css/site.moztes07sc.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"moztes07sc"},{"Name":"integrity","Value":"sha256-5tflA6OY54Mwo840bbPvF85AVgqDjnFKZq5ejaBYGKY="},{"Name":"label","Value":"_content/FilmForge/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2016"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00225tflA6OY54Mwo840bbPvF85AVgqDjnFKZq5ejaBYGKY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 14:33:31 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZzB0qgL6yFy8rX4XIrv1MSiF3e0h2MblQYZWIYsTCus="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1987"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ZzB0qgL6yFy8rX4XIrv1MSiF3e0h2MblQYZWIYsTCus=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 18:10:40 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FilmForge/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
