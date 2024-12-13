@@ -1,0 +1,91 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; 
+  text-align: center;
+  color: white;
+}
+
+.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);  
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: transparent;
+  background: linear-gradient(274deg, rgba(183,28,40,1) 18%, rgba(137,3,254,1) 41%, rgba(255,0,122,1) 79%);
+  -webkit-background-clip: text;
+  font-weight: bold;
+}
+
+.welcome {
+  background: radial-gradient(circle, rgba(55,33,171,1) 12%, rgba(53,99,181,1) 48%, rgba(63,94,251,1) 82%);
+  -webkit-background-clip: text;
+  color: transparent; 
+  font-weight: bold;
+}
+
+.typing-effect {
+  font-family: 'Arial';
+  font-size: 1.5em;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0.15em solid black; 
+  width: 0;
+  animation: typing 5s steps(50) 1s forwards;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
