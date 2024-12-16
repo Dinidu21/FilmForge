@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-black  mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-black mb-1">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-page="/Index">FilmForge</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -23,19 +23,20 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav gap-5">
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="/Index">Home</a>
+                            <a class="nav-link text-light font-weight-bold font-italic" asp-area=""
+                                asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-page="/Trending">Trending</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="/TvSeries">TvSeries</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/Movies/Index">Movies</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="/About">About</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/TvSeries/Index">TvSeries</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="/Privacy">Privacy</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/AboutUs">About</a>
                         </li>
                     </ul>
                 </div>
@@ -43,15 +44,21 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero-section">
+    <!-- Spinner container -->
+    <div id="spinner-container" class="d-flex justify-content-center">
+        <div class="spinner-grow" role="status">
+
+        </div>
+    </div>
+
+    @* <section class="hero-section">
         <div class="hero-overlay">
             <div class="hero-content text-center text-white">
-                <h1 class="display-4 welcome">Welcome to FilmForge</h1>
+                <h1 class="display-2 welcome">Welcome to FilmForge</h1><br>
                 <p class="typing-effect">Your gateway to managing your favorite movies. Start exploring!</p>
             </div>
         </div>
-    </section>
+    </section> *@
 
     <div class="container">
         <main role="main" class="pb-3">
@@ -61,13 +68,42 @@
 
     <footer class="footer text-white">
         <div class="container">
-            &copy; 2024 - FilmForge Inc. All rights Reseverd.
+            &copy; 2024 - FilmForge Inc. All rights reserved.
         </div>
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script>
+        // Wait for the page to load
+        document.addEventListener('DOMContentLoaded', function () {
+            const links = document.querySelectorAll('.nav-link'); // Select all navigation links
+            const spinnerContainer = document.getElementById('spinner-container'); // The spinner container
+
+            // Listen for clicks on each navigation link
+            links.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    // Show the spinner when a link is clicked
+                    spinnerContainer.classList.remove('d-none'); // Remove 'd-none' to show spinner
+
+                    // Optionally, prevent default action and handle the navigation manually
+                    e.preventDefault(); // Prevent the default action to allow custom navigation
+
+                    // Use setTimeout to wait before redirecting, allowing the spinner to show for a moment
+                    setTimeout(function () {
+                        window.location.href = link.href;  // Trigger the navigation
+                    }, 500);  // Adjust the delay (500ms is just an example)
+                });
+            });
+
+            // When the page is fully loaded, hide the spinner
+            window.addEventListener('load', function () {
+                spinnerContainer.classList.add('d-none'); // Add 'd-none' to hide spinner once the page has loaded
+            });
+        });
+    </script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>

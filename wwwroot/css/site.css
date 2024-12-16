@@ -50,6 +50,7 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   font-weight: bold;
+  font-family: 'Poppins';
 }
 
 .navbar-brand:hover {
@@ -64,17 +65,18 @@ body {
   -webkit-background-clip: text;
   color: transparent; 
   font-weight: bold;
+  font-family: 'Poppins';
 }
 
 .typing-effect {
-  font-family: 'Arial';
+  font-family: 'Poppins';
   font-size: 1.5em;
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
   border-right: 0.15em solid black; 
   width: 0;
-  animation: typing 5s steps(50) 1s forwards;
+  animation: typing 5s steps(37) 1s forwards;
 }
 
 @keyframes typing {
@@ -92,7 +94,6 @@ body {
   }
 }
 
-/* Hero Section Styling */
 .hero-section {
   position: relative;
   background: url('/asserts/images/hero.jpg') no-repeat center center/cover;
@@ -108,7 +109,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6); /* Dark overlay for readability */
+  background: rgba(0, 0, 0, 0.7); 
   display: flex;
   justify-content: center;
   align-items: center;
