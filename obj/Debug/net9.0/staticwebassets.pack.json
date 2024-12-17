@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\FilmForge.mra2s6lvzj.bundle.scp.css"
     },
     {
+      "Id": "D:\\.NET\\FilmForge\\wwwroot\\asserts\\images\\hero.jpg",
+      "PackagePath": "staticwebassets\\asserts\\images\\hero.jpg"
+    },
+    {
       "Id": "D:\\.NET\\FilmForge\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

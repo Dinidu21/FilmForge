@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sAZIvL+tBtvrzcKsJRyKYD3lmVnMt56F3Wf8kk2FGyc=",
+  "Hash": "Dl8NxzJWp5XYCaIDk7CN/ke63pOlXIHvvzBMyiP/2a4=",
   "Source": "FilmForge",
   "BasePath": "_content/FilmForge",
   "Mode": "Default",
@@ -290,12 +290,12 @@
       "OriginalItemSpec": "D:\\.NET\\FilmForge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\.NET\\FilmForge\\obj\\Debug\\net9.0\\compressed\\5vdfqz9pe8-5tcfpune7u.gz",
+      "Identity": "D:\\.NET\\FilmForge\\obj\\Debug\\net9.0\\compressed\\5vdfqz9pe8-yl9n85qj24.gz",
       "SourceId": "FilmForge",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\.NET\\FilmForge\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/FilmForge",
-      "RelativePath": "css/site#[.{fingerprint=5tcfpune7u}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=yl9n85qj24}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -304,8 +304,8 @@
       "RelatedAsset": "D:\\.NET\\FilmForge\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "2dare1mihl",
-      "Integrity": "Nr+1akA1VagA1QFjQgoHKPQhZSAZddVyX9AvZ04f4TM=",
+      "Fingerprint": "huokkni963",
+      "Integrity": "yWrV5TkxMCNjAACyyI9dTxnzwl00gi3sAI01djP6asU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\.NET\\FilmForge\\wwwroot\\css\\site.css"
@@ -1403,6 +1403,27 @@
       "OriginalItemSpec": "D:\\.NET\\FilmForge\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\FilmForge.bundle.scp.css"
     },
     {
+      "Identity": "D:\\.NET\\FilmForge\\wwwroot\\asserts\\images\\hero.jpg",
+      "SourceId": "FilmForge",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.NET\\FilmForge\\wwwroot\\",
+      "BasePath": "_content/FilmForge",
+      "RelativePath": "asserts/images/hero#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3dwaxrw8ml",
+      "Integrity": "V8+yIokvSCdg7KYKdKlfafUJy0LYdYO22Xnh77yrxHs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\asserts\\images\\hero.jpg"
+    },
+    {
       "Identity": "D:\\.NET\\FilmForge\\wwwroot\\css\\site.css",
       "SourceId": "FilmForge",
       "SourceType": "Discovered",
@@ -1417,8 +1438,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5tcfpune7u",
-      "Integrity": "ZzB0qgL6yFy8rX4XIrv1MSiF3e0h2MblQYZWIYsTCus=",
+      "Fingerprint": "yl9n85qj24",
+      "Integrity": "mtP0NRPfm0H9hXexvEvd9j/4x228Bln00Ab05cYpo1M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2728,13 +2749,95 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.5tcfpune7u.css",
-      "AssetFile": "D:\\.NET\\FilmForge\\obj\\Debug\\net9.0\\compressed\\5vdfqz9pe8-5tcfpune7u.gz",
+      "Route": "asserts/images/hero.3dwaxrw8ml.jpg",
+      "AssetFile": "D:\\.NET\\FilmForge\\wwwroot\\asserts\\images\\hero.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "387104"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V8+yIokvSCdg7KYKdKlfafUJy0LYdYO22Xnh77yrxHs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 18:21:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3dwaxrw8ml"
+        },
+        {
+          "Name": "label",
+          "Value": "asserts/images/hero.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V8+yIokvSCdg7KYKdKlfafUJy0LYdYO22Xnh77yrxHs="
+        }
+      ]
+    },
+    {
+      "Route": "asserts/images/hero.jpg",
+      "AssetFile": "D:\\.NET\\FilmForge\\wwwroot\\asserts\\images\\hero.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "387104"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V8+yIokvSCdg7KYKdKlfafUJy0LYdYO22Xnh77yrxHs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 18:21:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V8+yIokvSCdg7KYKdKlfafUJy0LYdYO22Xnh77yrxHs="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "D:\\.NET\\FilmForge\\obj\\Debug\\net9.0\\compressed\\5vdfqz9pe8-yl9n85qj24.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001259445844"
+          "Quality": "0.001061571125"
         }
       ],
       "ResponseHeaders": [
@@ -2744,19 +2847,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "793"
+          "Value": "941"
         },
         {
           "Name": "ETag",
-          "Value": "\"Nr+1akA1VagA1QFjQgoHKPQhZSAZddVyX9AvZ04f4TM=\""
+          "Value": "\"yWrV5TkxMCNjAACyyI9dTxnzwl00gi3sAI01djP6asU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 18:10:40 GMT"
+          "Value": "Mon, 16 Dec 2024 18:45:03 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2772,26 +2875,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZzB0qgL6yFy8rX4XIrv1MSiF3e0h2MblQYZWIYsTCus=\""
+          "Value": "W/\"mtP0NRPfm0H9hXexvEvd9j/4x228Bln00Ab05cYpo1M=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "5tcfpune7u"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-ZzB0qgL6yFy8rX4XIrv1MSiF3e0h2MblQYZWIYsTCus="
+          "Value": "sha256-mtP0NRPfm0H9hXexvEvd9j/4x228Bln00Ab05cYpo1M="
         }
       ]
     },
     {
-      "Route": "css/site.5tcfpune7u.css",
+      "Route": "css/site.css",
       "AssetFile": "D:\\.NET\\FilmForge\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2801,7 +2896,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1987"
+          "Value": "2498"
         },
         {
           "Name": "Content-Type",
@@ -2809,11 +2904,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZzB0qgL6yFy8rX4XIrv1MSiF3e0h2MblQYZWIYsTCus=\""
+          "Value": "\"mtP0NRPfm0H9hXexvEvd9j/4x228Bln00Ab05cYpo1M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 18:10:40 GMT"
+          "Value": "Mon, 16 Dec 2024 18:45:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mtP0NRPfm0H9hXexvEvd9j/4x228Bln00Ab05cYpo1M="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "D:\\.NET\\FilmForge\\obj\\Debug\\net9.0\\compressed\\5vdfqz9pe8-yl9n85qj24.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "941"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yWrV5TkxMCNjAACyyI9dTxnzwl00gi3sAI01djP6asU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 18:45:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yWrV5TkxMCNjAACyyI9dTxnzwl00gi3sAI01djP6asU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.yl9n85qj24.css",
+      "AssetFile": "D:\\.NET\\FilmForge\\obj\\Debug\\net9.0\\compressed\\5vdfqz9pe8-yl9n85qj24.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001061571125"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "941"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yWrV5TkxMCNjAACyyI9dTxnzwl00gi3sAI01djP6asU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 18:45:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"mtP0NRPfm0H9hXexvEvd9j/4x228Bln00Ab05cYpo1M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yl9n85qj24"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mtP0NRPfm0H9hXexvEvd9j/4x228Bln00Ab05cYpo1M="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.yl9n85qj24.css",
+      "AssetFile": "D:\\.NET\\FilmForge\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mtP0NRPfm0H9hXexvEvd9j/4x228Bln00Ab05cYpo1M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 18:45:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2823,7 +3063,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5tcfpune7u"
+          "Value": "yl9n85qj24"
         },
         {
           "Name": "label",
@@ -2831,13 +3071,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZzB0qgL6yFy8rX4XIrv1MSiF3e0h2MblQYZWIYsTCus="
+          "Value": "sha256-mtP0NRPfm0H9hXexvEvd9j/4x228Bln00Ab05cYpo1M="
         }
       ]
     },
     {
-      "Route": "css/site.5tcfpune7u.css.gz",
-      "AssetFile": "D:\\.NET\\FilmForge\\obj\\Debug\\net9.0\\compressed\\5vdfqz9pe8-5tcfpune7u.gz",
+      "Route": "css/site.yl9n85qj24.css.gz",
+      "AssetFile": "D:\\.NET\\FilmForge\\obj\\Debug\\net9.0\\compressed\\5vdfqz9pe8-yl9n85qj24.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2846,7 +3086,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "793"
+          "Value": "941"
         },
         {
           "Name": "Content-Type",
@@ -2854,11 +3094,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Nr+1akA1VagA1QFjQgoHKPQhZSAZddVyX9AvZ04f4TM=\""
+          "Value": "\"yWrV5TkxMCNjAACyyI9dTxnzwl00gi3sAI01djP6asU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 18:10:40 GMT"
+          "Value": "Mon, 16 Dec 2024 18:45:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2876,7 +3116,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5tcfpune7u"
+          "Value": "yl9n85qj24"
         },
         {
           "Name": "label",
@@ -2884,144 +3124,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Nr+1akA1VagA1QFjQgoHKPQhZSAZddVyX9AvZ04f4TM="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "D:\\.NET\\FilmForge\\obj\\Debug\\net9.0\\compressed\\5vdfqz9pe8-5tcfpune7u.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001259445844"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "793"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Nr+1akA1VagA1QFjQgoHKPQhZSAZddVyX9AvZ04f4TM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 18:10:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ZzB0qgL6yFy8rX4XIrv1MSiF3e0h2MblQYZWIYsTCus=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZzB0qgL6yFy8rX4XIrv1MSiF3e0h2MblQYZWIYsTCus="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "D:\\.NET\\FilmForge\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1987"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZzB0qgL6yFy8rX4XIrv1MSiF3e0h2MblQYZWIYsTCus=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 18:10:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZzB0qgL6yFy8rX4XIrv1MSiF3e0h2MblQYZWIYsTCus="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "D:\\.NET\\FilmForge\\obj\\Debug\\net9.0\\compressed\\5vdfqz9pe8-5tcfpune7u.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "793"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Nr+1akA1VagA1QFjQgoHKPQhZSAZddVyX9AvZ04f4TM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 18:10:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Nr+1akA1VagA1QFjQgoHKPQhZSAZddVyX9AvZ04f4TM="
+          "Value": "sha256-yWrV5TkxMCNjAACyyI9dTxnzwl00gi3sAI01djP6asU="
         }
       ]
     },
