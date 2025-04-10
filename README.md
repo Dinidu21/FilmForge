@@ -1,6 +1,8 @@
 # FilmForge 🎥🍿
 
 Welcome to **FilmForge**, your gateway to managing your favorite movies. This app provides an easy-to-use platform for adding, viewing, updating, and deleting movies. Start exploring! 
+![image](https://github.com/user-attachments/assets/a21a01ba-6f84-4dd6-9c58-8ab388e09038)
+
 
 ## Features
 - **CRUD Operations**: Create, Read, Update, and Delete movies.
